@@ -1,4 +1,4 @@
-
+import Navbar from './component/Navbar'
 import './App.css'
 import { ThemeProvider, createTheme } from '@mui/material/styles'
 
@@ -15,7 +15,6 @@ function App() {
     <>
       <ThemeProvider theme={theme}>
         <Navbar/>
-        <h1>Vite + React</h1>
       </ThemeProvider>
     </>
   )
